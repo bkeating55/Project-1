@@ -1,0 +1,29 @@
+body {
+  padding-top: 100px;
+  background-color:#987065;
+  font-size: 35px;
+  text-align: left;
+}
+header {
+  margin-bottom: 100px;
+  color: black;
+  font-size: 100px;
+  text-align: center;
+}
+p {
+  color: orange;
+  font-size: 35px;
+}
+#container {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  color: red;
+}
+.input {
+  font-size: 30px;
+  text-align: left;
+}
+.radio {
+  color: blue;
+}
