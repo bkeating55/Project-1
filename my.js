@@ -67,13 +67,13 @@ $(document).ready(function() {
     var answer = answers[questionNumber]
     if (userGuess === answer && numberOfClicks <= answers.length) {
         score++
-        updateScore();
+        updateScore()
         $(this).off("click")
     }
   })
 
   function updateScore(){
-    $("#output").text(score)
+    $("#output").text(score + " / 10")
   }
 
 })
