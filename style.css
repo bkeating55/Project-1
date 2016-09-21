@@ -6,7 +6,7 @@ body {
 }
 header {
   margin-bottom: 100px;
-  color: #ff6600;
+  color: #660000;
   font-size: 100px;
   text-align: center;
   font-weight: bolder;
@@ -16,32 +16,21 @@ p {
   color: #660000;
   font-size: 35px;
 }
-/*#container {
-  text-align: left;
-  display: flex;
-  justify-content: space-between;
-  color: red;
-}*/
+
 #output {
-  /*height: 200px;
-  width: 300px;
-  border-color: black;
-  border-width: 4px;
-  padding: 50px;
-  text-align: center;
-  display: inline-block;*/
   position: absolute;
       top: 150px;
       left: 100px;
-      /*z-index: 90;*/
-      color: #660000;
-      border-color: white;
-      border-width: 4px;
+      color: #ff6600;
 }
-radio {
-  color: red;
-}
+
 div{
   color: #ff6600;
   font-weight: bold;
+}
+
+h5 {
+  color: #ff6600;
+  text-align: center;
+  padding-bottom: 50px;
 }

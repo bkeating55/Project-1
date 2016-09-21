@@ -71,13 +71,13 @@ $(document).ready(function() {
         $(this).off("click")
     }
   })
-
+// update score to display
   function updateScore(){
     $("#output").text(score + " / 10")
   }
 
 })
-    // update the display with the score
+
 
 
 
@@ -111,86 +111,3 @@ $(document).ready(function() {
 
 
  // Need to create a function to score the game
-
-
-
-
- //*
-
-
-
-//*
-
-
- // *
-// question 2
-// if answer == #2d
-//   return correct
-//  else incorrect
-// *
-
-
-// // *
-// question 3
-// if answer == #3b
-// return correct
-// else incorrect
-
-
- // // *
- // question 4
- // if answer == #4c
- // return correct
- // esle incorrect
-
-
-
-
- // // *
- // question 5
- // if answer == #5d
- // return correct
- // else incorrect
-
-
-
-// // *
-// question 6
-// if answer == #6a
-// return correct
-// else incorrect
-
-
-
-// // *
-// question 7
-// if answer == #7a
-// return correct
-// else incorrect
-
-
-
-// // *
-// question 8
-// if answer == #8b
-// return correct
-// else incorrect
-
-
-
-
-// // *
-// question 9
-// if answer == #9b
-// return correct
-// else incorect
-
-
-
-
-
-// // *
-// question 10
-// if answer == #10b
-// return correct
-// else incorrect
