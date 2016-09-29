@@ -1,101 +1,100 @@
+<!-- NHO: Good, semantic Markup! Ran code through Atom's beautify package for formatting  -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
-    <title>BILLY KEATING PROJECT 1</title>
-  </head>
-  <body>
-<header>Music Trivia</header>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>BILLY KEATING PROJECT 1</title>
+</head>
+
+<body>
+  <header>Music Trivia</header>
   <h5> Click on the button to the left of the answer you believe to be correct.  You may only choose once per question and your score will be tallied at the top. </h5>
 
-    <div id="container"></div>
-        <div data-question="0" class = "question1">
-            <p> 1. What band had the hit song "Smells Like Teen Spirit?" </p>
-              <input type="radio" name="q1" value="Guns N Roses" id="1a">  Guns N Roses
-              <input type="radio" name="q1" value="Nirvana" id="1b">  Nirvana
-              <input type="radio" name="q1" value="Soundgarden" id="1c">  Soundgarden
-              <input type="radio" name="q1" value="Red Hot Chili Peppers" id="1d">  Red Hot Chili Peppers
-            </div>
-            <br>
-        <div data-question="1" class = "question2">
-            <p> 2. Where was the first Hard Rock Cafe opened? </p>
-              <input type="radio" name="q2" value="Washington, DC" id="2a">  Washington, DC
-              <input type="radio" name="q2" value="Amsterdam, Holland" id="2b">  Amsterdam, Holland
-              <input type="radio" name="q2" value="Los Angeles, California" id="2c">  Los Angeles, California
-              <input type="radio" name="q2" value="Picadilly, UK" id="2d">  Picadilly, UK
-            </div>
-            <br>
-        <div data-question="2" class = "question3">
-            <p> 3. Who was the original lead singer of Queen? </p>
-              <input type="radio" name="q3" value="Eddie Vedder" id="3a">  Eddie Vedder
-              <input type="radio" name="q3" value="Freddie Mercury" id="3b">  Freddie Mercury
-              <input type="radio" name="q3" value="Chris Cornell" id="3c">  Chris Cornell
-              <input type="radio" name="q3" value="Adam Lambert" id="3d">  Adam Lambert
-            </div>
-            <br>
-        <div data-question="3" class = "question4">
-            <p> 4. ABBA is a pop group from what country? </p>
-              <input type="radio" name="q4" value="USA" id="4a">  USA
-              <input type="radio" name="q4" value="England" id="4b">  England
-              <input type="radio" name="q4" value="Sweden" id="4c">  Sweden
-              <input type="radio" name="q4" value="Canada" id="4d">  Canada
-            </div>
-            <br>
-        <div data-question="4" class = "question5">
-            <p> 5. What was the first music video played on MTV? </p>
-              <input type="radio" name="q5" value="Toto" id="5a">  Toto
-              <input type="radio" name="q5" value="Smooth Criminal" id="5b">  Smooth Criminal
-              <input type="radio" name="q5" value="Safety Dance" id="5c">  Safety Dance
-              <input type="radio" name="q5" value="Video Killed the Radio Star" id="5d">  Video Killed the Radio Star
-            </div>
-            <br>
-        <div data-question="5" class = "question6">
-            <p> 6. Which music group has received the most Grammy Awards? </p>
-              <input type="radio" name="q6" value="U2" id="6a">  U2
-              <input type="radio" name="q6" value="Coldplay" id="6b">  Coldplay
-              <input type="radio" name="q6" value="Foo Fighters" id="6c">  Foo Fighters
-              <input type="radio" name="q6" value="Dixie Chicks" id="6d">  Dixie Chicks
-            </div>
-            <br>
-        <div data-question="6" class = "question7">
-            <p> 7. What is the real name of Fatboy Slim? </p>
-              <input type="radio" name="q7" value="Norman Cook" id="7a">  Norman Cook
-              <input type="radio" name="q7" value="Wasalu Jaco" id="7b">  Wasalu Jaco
-              <input type="radio" name="q7" value="Baldemar Huerta" id="7c">  Baldemar Huerta
-              <input type="radio" name="q7" value="Joseph Cartagena" id="7d">  Joseph Cartagena
-            </div>
-            <br>
-        <div data-question="7" class = "question8">
-            <p> 8. What Canadian electronic duo is made up by members "DC" and "Hooks"? </p>
-              <input type="radio" name="q8" value="Adventure Club" id="8a">  Adventure Club
-              <input type="radio" name="q8" value="Zeds Dead" id="8b">  Zeds Dead
-              <input type="radio" name="q8" value="Dog Blood" id="8c">  Dog Blood
-              <input type="radio" name="q8" value="MSTRKRFT" id="8d">  MSTRKRFT
-            </div>
-            <br>
-        <div data-question="8" class = "question9">
-            <p> 9. What was the name of the Jay-Z/Linkin Park collaboration from 2004? </p>
-              <input type="radio" name="q9" value="Collaboration" id="9a">  Collaboration
-              <input type="radio" name="q9" value="Numb/Encore" id="9b">  Numb/Encore
-              <input type="radio" name="q9" value="It's a Hard Knock Life" id="9c">  It's a Hard Knock Life
-              <input type="radio" name="q9" value="The Black Album" id="9d">  The Black Album
-            </div>
-            <br>
-        <div data-question="9" class = "question10">
-            <p> 10. What is the nickname of the rapper played by Eminem in the movie "8 Mile"? </p>
-              <input type="radio" name="q10" value="Marshall Mathers" id="10a">  Marshall Mathers
-              <input type="radio" name="q10" value="B. Rabbit" id="10b">  B. Rabbit
-              <input type="radio" name="q10" value="M&M" id="10c">  M&M
-              <input type="radio" name="q10" value="Slim Shady" id="10d">  Slim Shady
-              </div>
-
-        <div id="output">Your Score</div>
-
-
-            <br>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script src="my.js"></script>
-      </body>
+  <div id="container"></div>
+  <!-- NHO: see how the HTML for each question is the same, and the only really difference is the data? This is great sign that we can dynamically
+    generate this HTML using JS, could be a good potential idea for refactoring -->
+  <div data-question="0" class="question1">
+    <p> 1. What band had the hit song "Smells Like Teen Spirit?" </p>
+    <input type="radio" name="q1" value="Guns N Roses" id="1a"> Guns N Roses
+    <input type="radio" name="q1" value="Nirvana" id="1b"> Nirvana
+    <input type="radio" name="q1" value="Soundgarden" id="1c"> Soundgarden
+    <input type="radio" name="q1" value="Red Hot Chili Peppers" id="1d"> Red Hot Chili Peppers
+  </div>
+  <br>
+  <div data-question="1" class="question2">
+    <p> 2. Where was the first Hard Rock Cafe opened? </p>
+    <input type="radio" name="q2" value="Washington, DC" id="2a"> Washington, DC
+    <input type="radio" name="q2" value="Amsterdam, Holland" id="2b"> Amsterdam, Holland
+    <input type="radio" name="q2" value="Los Angeles, California" id="2c"> Los Angeles, California
+    <input type="radio" name="q2" value="Picadilly, UK" id="2d"> Picadilly, UK
+  </div>
+  <br>
+  <div data-question="2" class="question3">
+    <p> 3. Who was the original lead singer of Queen? </p>
+    <input type="radio" name="q3" value="Eddie Vedder" id="3a"> Eddie Vedder
+    <input type="radio" name="q3" value="Freddie Mercury" id="3b"> Freddie Mercury
+    <input type="radio" name="q3" value="Chris Cornell" id="3c"> Chris Cornell
+    <input type="radio" name="q3" value="Adam Lambert" id="3d"> Adam Lambert
+  </div>
+  <br>
+  <div data-question="3" class="question4">
+    <p> 4. ABBA is a pop group from what country? </p>
+    <input type="radio" name="q4" value="USA" id="4a"> USA
+    <input type="radio" name="q4" value="England" id="4b"> England
+    <input type="radio" name="q4" value="Sweden" id="4c"> Sweden
+    <input type="radio" name="q4" value="Canada" id="4d"> Canada
+  </div>
+  <br>
+  <div data-question="4" class="question5">
+    <p> 5. What was the first music video played on MTV? </p>
+    <input type="radio" name="q5" value="Toto" id="5a"> Toto
+    <input type="radio" name="q5" value="Smooth Criminal" id="5b"> Smooth Criminal
+    <input type="radio" name="q5" value="Safety Dance" id="5c"> Safety Dance
+    <input type="radio" name="q5" value="Video Killed the Radio Star" id="5d"> Video Killed the Radio Star
+  </div>
+  <br>
+  <div data-question="5" class="question6">
+    <p> 6. Which music group has received the most Grammy Awards? </p>
+    <input type="radio" name="q6" value="U2" id="6a"> U2
+    <input type="radio" name="q6" value="Coldplay" id="6b"> Coldplay
+    <input type="radio" name="q6" value="Foo Fighters" id="6c"> Foo Fighters
+    <input type="radio" name="q6" value="Dixie Chicks" id="6d"> Dixie Chicks
+  </div>
+  <br>
+  <div data-question="6" class="question7">
+    <p> 7. What is the real name of Fatboy Slim? </p>
+    <input type="radio" name="q7" value="Norman Cook" id="7a"> Norman Cook
+    <input type="radio" name="q7" value="Wasalu Jaco" id="7b"> Wasalu Jaco
+    <input type="radio" name="q7" value="Baldemar Huerta" id="7c"> Baldemar Huerta
+    <input type="radio" name="q7" value="Joseph Cartagena" id="7d"> Joseph Cartagena
+  </div>
+  <br>
+  <div data-question="7" class="question8">
+    <p> 8. What Canadian electronic duo is made up by members "DC" and "Hooks"? </p>
+    <input type="radio" name="q8" value="Adventure Club" id="8a"> Adventure Club
+    <input type="radio" name="q8" value="Zeds Dead" id="8b"> Zeds Dead
+    <input type="radio" name="q8" value="Dog Blood" id="8c"> Dog Blood
+    <input type="radio" name="q8" value="MSTRKRFT" id="8d"> MSTRKRFT
+  </div>
+  <br>
+  <div data-question="8" class="question9">
+    <p> 9. What was the name of the Jay-Z/Linkin Park collaboration from 2004? </p>
+    <input type="radio" name="q9" value="Collaboration" id="9a"> Collaboration
+    <input type="radio" name="q9" value="Numb/Encore" id="9b"> Numb/Encore
+    <input type="radio" name="q9" value="It's a Hard Knock Life" id="9c"> It's a Hard Knock Life
+    <input type="radio" name="q9" value="The Black Album" id="9d"> The Black Album
+  </div>
+  <br>
+  <div data-question="9" class="question10">
+    <p> 10. What is the nickname of the rapper played by Eminem in the movie "8 Mile"? </p>
+    <input type="radio" name="q10" value="Marshall Mathers" id="10a"> Marshall Mathers
+    <input type="radio" name="q10" value="B. Rabbit" id="10b"> B. Rabbit
+    <input type="radio" name="q10" value="M&M" id="10c"> M&M
+    <input type="radio" name="q10" value="Slim Shady" id="10d"> Slim Shady
+  </div>
+  <div id="output">Your Score</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="my.js"></script>
+</body>
 </html>
